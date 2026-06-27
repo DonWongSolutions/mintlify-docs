@@ -1,0 +1,45 @@
+---
+title: "Setting up your account"
+---
+
+## How to get a MyCluster Teacher Account
+
+<Tip>
+  Note: If you contact **Don Wong,** he will be able to set all these up for you.
+
+  However, if Don has already left the school by the time you read this, you will have to do this yourself.
+</Tip>
+
+<Steps>
+  <Step title="Step 1: Creating a MyCluster Account">
+    Go to [https://mycluster.abingdoncs.org.uk](https://mycluster.abingdoncs.org.uk) and register a **student account**
+
+    <Note>
+      You will need to use your @[abingdon.org.uk](http://abingdon.org.uk) email to do so.
+    </Note>
+  </Step>
+  <Step title="Step 2: Locating the MyCluster Container">
+    SSH into 20.238.53.135 and login with your own credentials
+
+    <Note>
+      _This is assuming that MyCluster is still being hosted on the Microsoft Server._
+    </Note>
+
+    Run `sudo docker ps -a `to identify the container running MyCluster
+
+    Run the following command to set your student account associated with your email address as a teacher.
+
+    `docker exec -d {container}  npx tsx tools/set-admin.ts --email {your_email}`
+
+    <Note>
+      _Remember to replace the variables above with real values._
+    </Note>
+  </Step>
+  <Step title="Step 3: Login to MyCluster again">
+    Go back to [https://mycluster.abingdoncs.org.uk](https://mycluster.abingdoncs.org.uk) and login again with your Google Account. This time, you should be redirected to the Teacher Dashboard.
+
+    <Frame>
+      ![Image](/images/image.png)
+    </Frame>
+  </Step>
+</Steps>

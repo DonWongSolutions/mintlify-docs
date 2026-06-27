@@ -32,7 +32,10 @@
         "product": "Student Docs"
       },
       {
-        "product": "Teacher Docs"
+        "product": "Teacher Docs",
+        "pages": [
+          "setting-up-your-account"
+        ]
       }
     ]
   },
