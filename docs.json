@@ -33,8 +33,15 @@
       },
       {
         "product": "Teacher Docs",
-        "pages": [
-          "setting-up-your-account"
+        "groups": [
+          {
+            "group": "Setting Up",
+            "pages": [
+              "setting-up-your-account",
+              "setting-up-your-students",
+              "setting-up-your-set"
+            ]
+          }
         ]
       }
     ]
