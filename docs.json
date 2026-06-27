@@ -23,16 +23,16 @@
     ],
     "products": [
       {
-        "product": "Student Docs"
-      },
-      {
-        "product": "Teacher Docs"
-      },
-      {
         "product": "Getting Started",
         "pages": [
           "welcome"
         ]
+      },
+      {
+        "product": "Student Docs"
+      },
+      {
+        "product": "Teacher Docs"
       }
     ]
   },
