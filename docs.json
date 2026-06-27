@@ -21,18 +21,17 @@
         ]
       }
     ],
-    "groups": [
+    "products": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
+        "product": "Student Docs"
       },
       {
-        "group": "Getting Started",
+        "product": "Teacher Docs"
+      },
+      {
+        "product": "Getting Started",
         "pages": [
-          "index"
+          "welcome"
         ]
       }
     ]
