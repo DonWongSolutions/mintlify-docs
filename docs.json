@@ -25,7 +25,8 @@
       {
         "product": "Getting Started",
         "pages": [
-          "welcome"
+          "welcome",
+          "my-cluster-changelogs"
         ]
       },
       {
