@@ -31,8 +31,8 @@
     ]
   },
   "logo": {
-    "light": "/images/ACSCLongLogoLight.png",
-    "dark": "/images/ACSCLongLogo.png"
+    "light": "/images/ACSCLongLogo.png",
+    "dark": "/images/ACSCLongLogoLight.png"
   },
   "navbar": {
     "links": [
