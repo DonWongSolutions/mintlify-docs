@@ -74,6 +74,18 @@
       {
         "label": "Support",
         "href": "mailto:support.it@abingdon.org.uk"
+      },
+      {
+        "href": "https://abingdoncs.userjot.com",
+        "label": "Feedback"
+      },
+      {
+        "href": "https://abingdoncs.userjot.com/roadmap",
+        "label": "Roadmap"
+      },
+      {
+        "href": "https://abingdoncs.userjot.com/updates",
+        "label": "Updates"
       }
     ],
     "primary": {
@@ -94,5 +106,39 @@
       "vscode"
     ]
   },
-  "description": "Documentation site for the ACSC MyCluster."
+  "description": "Documentation site for the ACSC MyCluster.",
+  "footer": {
+    "links": [
+      {
+        "header": "Abingdon School",
+        "items": [
+          {
+            "label": "ACSC MyCluster",
+            "href": "https://mycluster.abingdoncs.org.uk"
+          },
+          {
+            "label": "Abingdon School",
+            "href": "https://abingdon.org.uk"
+          }
+        ]
+      },
+      {
+        "header": "Feedback",
+        "items": [
+          {
+            "label": "Submit Feedback",
+            "href": "https://abingdoncs.userjot.com/"
+          },
+          {
+            "label": "Roadmap",
+            "href": "https://abingdoncs.userjot.com/roadmap"
+          },
+          {
+            "label": "Updates",
+            "href": "https://abingdoncs.userjot.com/updates"
+          }
+        ]
+      }
+    ]
+  }
 }
