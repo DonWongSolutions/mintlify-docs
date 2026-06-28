@@ -27,10 +27,12 @@
         "pages": [
           "welcome",
           "my-cluster-changelogs"
-        ]
+        ],
+        "icon": "home"
       },
       {
-        "product": "Student Docs"
+        "product": "Student Docs",
+        "icon": "user"
       },
       {
         "product": "Teacher Docs",
@@ -43,7 +45,8 @@
               "setting-up-your-set"
             ]
           }
-        ]
+        ],
+        "icon": "chalkboard-teacher"
       }
     ]
   },
