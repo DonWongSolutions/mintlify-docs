@@ -1,44 +1,45 @@
 ---
 title: "Welcome to ACSC MyCluster Docs"
+description: "Everything you need to get started with MyCluster."
+mode: "custom"
 ---
 
-<img
-  alt="ACSC Long Logo"
-  title="ACSC Long Logo"
-  lightAlt="ACSC Long Logo"
-  darkAlt="ACSC Long Logo"
-  className="mx-auto dark:hidden"
-  src="/images/ACSC-Long-Logo.png"
-/>
-<img
-  alt="ACSC Long Logo"
-  title="ACSC Long Logo"
-  lightAlt="ACSC Long Logo"
-  darkAlt="ACSC Long Logo"
-  className="mx-auto hidden dark:block"
-  src="/images/ACSC-Long-Logo-Light.png"
-/>
+<div className="flex flex-col items-center justify-center px-4 py-24 text-center sm:px-6 lg:px-8">
+  <img alt="ACSC Long Logo" title="ACSC Long Logo" className="mx-auto h-20 dark:hidden mb-8" src="/images/ACSC-Long-Logo.png" />
 
-## Quick Start
+  <img alt="ACSC Long Logo" title="ACSC Long Logo" className="mx-auto h-20 hidden dark:block mb-8" src="/images/ACSC-Long-Logo-Light.png" />
 
-<Columns cols={2}>
-  <Column>
-    #### Student Docs
+  <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+    ACSC MyCluster Docs
+  </h1>
 
-    <Card title="Get started with MyCluster" icon="airplay">
+  <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+    Welcome to the official documentation site for ACSC MyCluster.
+  </p>
+</div>
+
+<div className="mx-auto max-w-5xl px-4 pb-24 sm:px-6 lg:px-8">
+  <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+    Quick Start
+  </h2>
+
+  <CardGroup cols={2}>
+    <Card title="Student Docs" icon="airplay" href="/getting-started">
       Click here to view the instructions on getting started with your MyCluster Account.
     </Card>
-  </Column>
-  <Column>
-    #### Teacher Docs
 
-    <Card title="Teacher Dashboard" icon="dashboard" href="/setting-up-your-account">
-      Click here to learn about the process of getting access to the MyCluster Teacher Dashboard
+    <Card title="Teacher Dashboard" icon="chalkboard-user" href="/setting-up-your-account">
+      Click here to learn about the process of getting access to the MyCluster Teacher Dashboard.
     </Card>
-  </Column>
-</Columns>
+  </CardGroup>
 
-#### Changelogs
+  <div className="mt-12">
+    <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+      Updates & Resources
+    </h2>
 
-<Card title="View the latest changes in MyCluster on the Changelogs Page!" type="info" href="/my-cluster-changelogs" cta="View Latest Changes">
-</Card>
+    <Card title="Changelogs" icon="clock-rotate-left" href="/my-cluster-changelogs">
+      View the latest changes, updates, and improvements in MyCluster on the Changelogs Page.
+    </Card>
+  </div>
+</div>
