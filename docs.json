@@ -32,7 +32,11 @@
       },
       {
         "product": "Student Docs",
-        "icon": "user"
+        "icon": "user",
+        "pages": [
+          "accepting-your-my-cluster-invitation",
+          "creating-and-starting-your-vms"
+        ]
       },
       {
         "product": "Teacher Docs",
